@@ -1,0 +1,99 @@
+
+* {
+  margin: 0px;
+  padding: 0px; 
+  outline: none;
+  border: 0px;
+}
+
+body {
+    background-color: paleturquoise;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.button {
+    z-index: 1;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -20px;
+    margin-bottom: -20px;
+    height: 20px;
+    width: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.heart:hover, .heart-left:hover, .heart-right:hover {
+    cursor: pointer;
+}
+
+.heart {
+    background-color: rgb(255, 0, 0);
+    height: 40px;
+    width: 40px;
+    transform: rotate(-45deg);
+}
+
+.heart-left, .heart-right {
+  content: "";
+  background-color: rgb(255, 0, 0);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+}
+
+.heart-left {
+  top: -16px;
+  left: -16px;
+}
+
+.heart-right {
+    top: -16px;
+    left: 16px;
+}
+
+
+.dog {
+    z-index: 100;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    /*border-width: 15px;*/
+    /* background-color: purple; */
+}
+
+#bentley {
+    /* background-color: black; */
+    background-image: url("ben.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#ferrari {
+    /* background-color: white; */
+    background-image: url("fer.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+/* #bentley {
+    background-color: transparent;
+}
+
+#ferrari {
+    background-color: transparent;
+}
+
+.dog-img {
+    height: 100px;
+    width: 100px;
+} */
